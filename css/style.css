@@ -14,9 +14,7 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .max {
@@ -31,22 +29,27 @@ a {
   font-size: 30%;
 }
 
+.pokus {
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
   display: flex;
+  justify-content: center;
   align-items: flex-start;
+  padding: 0;
+  margin: 0;
 }
 
 li {
   padding: 0 10px 0 0;
-  font-size: 100%;
-}
-
-li:hover {
-  background-color: #f195b2;
-  border-radius: 20px;
+  font-size: 36px;
 }
 
 .logo {
+  display: block;
   width: 170px;
+  margin: 0 auto;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
