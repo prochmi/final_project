@@ -11,20 +11,25 @@ body {
 	font-size: $f-size;
 	line-height: 1.5;
 	margin: 0 auto;
-	font-family: 'Lora', serif;
+	min-width: 300px;
 }
 
 
 .container {
 	margin: 0 auto;
+	box-shadow: 0px 5px 10px 0px #aaa;
+  	position: fixed;
+  	width: 100%;
+  	background: #fff;
+  	opacity: 0.85;
 	
 
 }
-.max{
-	box-sizing: border-box;
-    margin: 0 auto;
-	max-width: 1100px;
+
+.raindrop {
+	width: 100%;
 }
+
 
 a {
 	text-decoration: none;
@@ -39,6 +44,7 @@ a {
 ul {
 	list-style-type: none;
 	display: flex;
+	flex: 1 1 calc(100% / 5);
 	justify-content: center;
 	align-items: flex-start;
 	padding: 0;
@@ -47,7 +53,7 @@ ul {
 
 li {
 	padding: 0 10px 0 0;
-    font-size: $f-size*2;
+    font-size: 2rem;
 
 }
 
@@ -55,6 +61,6 @@ li {
 	display: block;
 	width: 170px;
 	margin: 0 auto;
-	margin-top: 10%;
+	margin-top: 30px;
 
 }
