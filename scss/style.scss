@@ -12,6 +12,7 @@ body {
 	line-height: 1.5;
 	margin: 0 auto;
 	min-width: 300px;
+	max-width: 1000px;
 }
 
 header {
@@ -29,18 +30,32 @@ header {
 	li {
 		padding: 0 10px 0 0;
 		font-size: 2.4rem;
+
+		@media screen and (min-width:850px){
+			padding-left: 20px;
+			font-size: 3rem;
+			
+		} 
 	
 	}
+
 }
 
 .container {
 	margin: 0 auto;
-	box-shadow: 0px 5px 10px 0px #aaa;
+	box-shadow: 0px 0px 10px 0px #aaa;
   	position: fixed;
+	top: 0;
+	left: 0;
   	width: 100%;
   	background: #fff;
-  	opacity: 0.85;
 	min-width: 300px;
+
+
+	@media screen and (min-width:850px){
+		display: flex;	
+		justify-content: space-around;
+	}
 
 	a {
 		font-size: 40%;
@@ -51,6 +66,12 @@ header {
 		width: 170px;
 		margin: 0 auto;
 		margin-top: 30px;
+
+		@media screen and (min-width:850px){
+			width: 300px;
+			margin: 10px 0 10px 0;
+
+		}
 	
 	}
 }
@@ -59,18 +80,18 @@ header {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	padding: 30%;
+    padding: 30%;
 }
-
-
+.hero-foto {
+	background-image: url(/images/o_mne.jpg);
+}
+.hero-photo {
+	background-image: url(/images/raindrop_second.jpg);
+}
 
 a {
 	text-decoration: none;
 	color: $c-primary;
-}
-
-.pokus {
-	text-align: center;
 }
 
 
@@ -86,6 +107,12 @@ a {
 	text-align: center;
 	color: $c-secondary;
 	padding: 0 25px 0 25px;
+
+	@media screen and (min-width:850px){
+		text-align: left;
+		padding: 0 30px;
+	}
+	
 }
 
 .line {
@@ -111,16 +138,17 @@ h5 {
 
 }
 
-.fotodva {
-	background-image: url(/images/raindrop.jpg);
-}
-
 
 .signature {
 	font-style: italic;
 }
 
+footer {
+	@media screen and (min-width:850px){
+		display: flex;
+		justify-content: space-evenly;
+	}
 
-.foto {
-	background-image: url(/images/logo.png);
 }
+
+
