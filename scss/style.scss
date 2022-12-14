@@ -63,17 +63,17 @@ header {
 	}
 
 	a {
-		font-size: 40%;
+		font-size: 35%;
 	}
 
 	img {
 		display: block;
-		width: 170px;
+		width: 250px;
 		margin: 0 auto;
 		margin-top: 30px;
 
 		@media screen and (min-width:850px){
-			width: 300px;
+			width: 250px;
 			margin: 10px 0 10px 0;
 
 		}
