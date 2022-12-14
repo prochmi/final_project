@@ -121,8 +121,21 @@ a {
 		font-style: italic;
 
 	}
+
+	p {
+		margin-top: 25px;	
+	}
+
+	
+
+	li:last-child{
+		margin-top: 20px;
+		font-style: italic;
+
+	}
 	
 }
+
 
 .line {
 	border: 1px solid $c-primary;

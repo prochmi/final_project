@@ -108,6 +108,13 @@ a {
 .welcome h4 {
   font-style: italic;
 }
+.welcome p {
+  margin-top: 25px;
+}
+.welcome li:last-child {
+  margin-top: 20px;
+  font-style: italic;
+}
 
 .line {
   border: 1px solid #92d3ca;
