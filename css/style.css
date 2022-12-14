@@ -14,12 +14,15 @@ body {
   max-width: 1000px;
 }
 
-header ul {
+ul {
   list-style-type: none;
+  padding: 0;
+}
+
+header ul {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 0;
   margin: 0;
   -webkit-margin-before: 0;
           margin-block-start: 0;
@@ -102,10 +105,13 @@ a {
     padding: 0 30px;
   }
 }
+.welcome h4 {
+  font-style: italic;
+}
 
 .line {
   border: 1px solid #92d3ca;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   margin-top: 40px;
 }
@@ -132,4 +138,8 @@ h5 {
     display: flex;
     justify-content: space-evenly;
   }
+}
+
+.bolt {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

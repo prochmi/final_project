@@ -13,16 +13,20 @@ body {
 	margin: 0 auto;
 	min-width: 300px;
 	max-width: 1000px;
+} 
+
+ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 header {
 
 	ul {
-		list-style-type: none;
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
-		padding: 0;
+		
 		margin: 0;
 		margin-block-start: 0;
 	}
@@ -112,12 +116,17 @@ a {
 		text-align: left;
 		padding: 0 30px;
 	}
+
+	h4 {
+		font-style: italic;
+
+	}
 	
 }
 
 .line {
 	border: 1px solid $c-primary;
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
 	margin-top: 40px;
 
@@ -149,6 +158,10 @@ footer {
 		justify-content: space-evenly;
 	}
 
+}
+
+.bolt {
+	font-weight: bold;
 }
 
 
