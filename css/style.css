@@ -13,38 +13,7 @@ body {
   min-width: 300px;
 }
 
-.container {
-  margin: 0 auto;
-  box-shadow: 0px 5px 10px 0px #aaa;
-  position: fixed;
-  width: 100%;
-  background: #fff;
-  opacity: 0.85;
-  min-width: 300px;
-}
-
-.hero {
-  background-image: url(/images/raindrop.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 30%;
-}
-
-.container ul a {
-  font-size: 40%;
-}
-
-a {
-  text-decoration: none;
-  color: #92d3ca;
-}
-
-.pokus {
-  text-align: center;
-}
-
-ul {
+header ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -54,17 +23,44 @@ ul {
   -webkit-margin-before: 0;
           margin-block-start: 0;
 }
-
-li {
+header li {
   padding: 0 10px 0 0;
   font-size: 2.4rem;
 }
 
-.logo {
+.container {
+  margin: 0 auto;
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  opacity: 0.85;
+  min-width: 300px;
+}
+.container a {
+  font-size: 40%;
+}
+.container img {
   display: block;
   width: 170px;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+.hero {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30%;
+}
+
+a {
+  text-decoration: none;
+  color: #92d3ca;
+}
+
+.pokus {
+  text-align: center;
 }
 
 .title {
@@ -97,6 +93,14 @@ h5 {
   margin-top: 40px;
 }
 
+.fotodva {
+  background-image: url(/images/raindrop.jpg);
+}
+
 .signature {
   font-style: italic;
+}
+
+.foto {
+  background-image: url(/images/logo.png);
 }/*# sourceMappingURL=style.css.map */

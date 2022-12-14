@@ -14,8 +14,24 @@ body {
 	min-width: 300px;
 }
 
+header {
 
-
+	ul {
+		list-style-type: none;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		padding: 0;
+		margin: 0;
+		margin-block-start: 0;
+	}
+	
+	li {
+		padding: 0 10px 0 0;
+		font-size: 2.4rem;
+	
+	}
+}
 
 .container {
 	margin: 0 auto;
@@ -25,13 +41,21 @@ body {
   	background: #fff;
   	opacity: 0.85;
 	min-width: 300px;
-	
-	
 
+	a {
+		font-size: 40%;
+	}
+
+	img {
+		display: block;
+		width: 170px;
+		margin: 0 auto;
+		margin-top: 30px;
+	
+	}
 }
 
 .hero {
-	background-image: url(/images/raindrop.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -39,10 +63,6 @@ body {
 }
 
 
-
-.container ul a {
-	font-size: 40%;
-}
 
 a {
 	text-decoration: none;
@@ -53,29 +73,9 @@ a {
 	text-align: center;
 }
 
-ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	padding: 0;
-	margin: 0;
-	margin-block-start: 0;
-}
 
-li {
-	padding: 0 10px 0 0;
-    font-size: 2.4rem;
 
-}
 
-.logo {
-	display: block;
-	width: 170px;
-	margin: 0 auto;
-	margin-top: 30px;
-
-}
 
 .title{
 	padding-top: 20px ;
@@ -111,7 +111,16 @@ h5 {
 
 }
 
+.fotodva {
+	background-image: url(/images/raindrop.jpg);
+}
+
 
 .signature {
 	font-style: italic;
+}
+
+
+.foto {
+	background-image: url(/images/logo.png);
 }
