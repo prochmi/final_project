@@ -20,20 +20,31 @@ ul {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: $c-primary;
+}
+
+h5 {
+	color: $c-secondary;
+	margin-top: 40px;
+
+}
+
+/* header */
+
 header {
 
 	ul {
 		display: flex;
 		justify-content: center;
-		align-items: flex-start;
-		
 		margin: 0;
-		margin-block-start: 0;
+		margin-top: -10px;
 	}
 	
 	li {
 		padding: 0 10px 0 0;
-		font-size: 2.4rem;
+		font-size: 2.7rem;
 
 		@media screen and (min-width:850px){
 			padding-left: 20px;
@@ -44,6 +55,8 @@ header {
 	}
 
 }
+
+/* menu */
 
 .container {
 	margin: 0 auto;
@@ -60,6 +73,7 @@ header {
 	@media screen and (min-width:850px){
 		display: flex;	
 		justify-content: space-around;
+		align-items: center;
 	}
 
 	a {
@@ -70,7 +84,7 @@ header {
 		display: block;
 		width: 250px;
 		margin: 0 auto;
-		margin-top: 30px;
+		margin-top: 20px;
 
 		@media screen and (min-width:850px){
 			width: 250px;
@@ -81,11 +95,18 @@ header {
 	}
 }
 
+/* main sekce */
+
 .hero {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-    padding: 30%;
+    padding: 40%;
+
+	@media screen and (min-width:850px){
+		padding: 30%;
+
+	}
 }
 .hero-foto {
 	background-image: url(/images/o_mne-min.jpg);
@@ -94,19 +115,31 @@ header {
 	background-image: url(/images/raindrop_second-min.jpg);
 }
 
-a {
-	text-decoration: none;
-	color: $c-primary;
+
+/* obrázková prezentace stránka Oleje*/
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	padding: 0;
+	padding-top: 20%;
+	@media screen and (min-width:850px){
+		padding: 0;
+
+	}
+	
 }
 
-
-
+.presentation img{
+	width: 100%;
+	height: 100%;
+}
 
 
 .title{
 	padding-top: 20px ;
 }
-
 
 .welcome {
 	text-align: center;
@@ -137,12 +170,44 @@ a {
 	
 }
 
-
 .line {
 	border: 1px solid $c-primary;
 	width: 95%;
 	margin: 0 auto;
 	margin-top: 40px;
+
+}
+
+.bolt{
+	font-weight: bold;
+	
+	
+
+}
+
+.change {
+display: block;
+margin-top: 20px;
+	@media screen and (min-width:850px){
+		display: inline-block;
+		margin-top: 0;
+		
+	}
+}
+
+
+
+.signature {
+	font-style: italic;
+}
+
+/* footer */
+
+footer {
+	@media screen and (min-width:850px){
+		display: flex;
+		justify-content: space-evenly;
+	}
 
 }
 
@@ -155,27 +220,6 @@ a {
 	}
 }
 
-h5 {
-	color: $c-secondary;
-	margin-top: 40px;
 
-}
-
-
-.signature {
-	font-style: italic;
-}
-
-footer {
-	@media screen and (min-width:850px){
-		display: flex;
-		justify-content: space-evenly;
-	}
-
-}
-
-.bolt {
-	font-weight: bold;
-}
 
 
