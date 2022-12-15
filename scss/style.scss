@@ -130,6 +130,18 @@ header {
 	}
 	
 }
+/* obrázková prezentace stránka masáže*/
+.grid_second {
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+	grid-template-rows: 1fr;
+	padding: 0;
+	padding-top: 20%;
+	@media screen and (min-width:850px){
+		padding: 0;
+
+	}
+}
 
 .presentation img{
 	width: 100%;
@@ -177,6 +189,31 @@ header {
 
 }
 
+
+.masage {
+	@media screen and (min-width:850px){
+		display: flex;
+		gap: 25px;
+	}
+}
+
+
+img[alt="nabidka"] {
+	width: 90%;
+	height: 80%;
+	margin: 0 auto;
+	border-radius: 2%;
+}
+.protoalbum {
+	margin: 0 auto;
+	padding: 25px;
+}
+
+
+.masage  {
+	text-align: center;
+}
+
 .change {
 display: block;
 margin-top: 20px;
@@ -192,6 +229,11 @@ margin-top: 20px;
 .italic{
 	font-style: italic;
 }
+
+
+
+
+
 
 /* footer */
 

@@ -118,6 +118,20 @@ header li {
   }
 }
 
+/* obrázková prezentace stránka masáže*/
+.grid_second {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 0;
+  padding-top: 20%;
+}
+@media screen and (min-width: 850px) {
+  .grid_second {
+    padding: 0;
+  }
+}
+
 .presentation img {
   width: 100%;
   height: 100%;
@@ -154,6 +168,29 @@ header li {
 
 .bolt {
   font-weight: bold;
+}
+
+@media screen and (min-width: 850px) {
+  .masage {
+    display: flex;
+    gap: 25px;
+  }
+}
+
+img[alt=nabidka] {
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
+  border-radius: 2%;
+}
+
+.protoalbum {
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.masage {
+  text-align: center;
 }
 
 .change {
