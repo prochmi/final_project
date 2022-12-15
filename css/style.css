@@ -195,6 +195,12 @@ img[alt=nabidka] {
   }
 }
 
+@media screen and (min-width: 850px) {
+  .product {
+    text-align: left;
+  }
+}
+
 .change {
   display: block;
   margin-top: 20px;
