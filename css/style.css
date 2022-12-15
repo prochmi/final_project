@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   min-width: 300px;
   max-width: 1000px;
+  color: #b78b52;
 }
 
 ul {
@@ -58,13 +59,13 @@ header li {
   width: 100%;
   background: #fff;
   min-width: 300px;
-  opacity: 0.9;
 }
 @media screen and (min-width: 850px) {
   .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    opacity: 0.9;
   }
 }
 .container a {
@@ -170,13 +171,6 @@ header li {
   font-weight: bold;
 }
 
-@media screen and (min-width: 850px) {
-  .masage {
-    display: flex;
-    gap: 25px;
-  }
-}
-
 img[alt=nabidka] {
   width: 90%;
   height: 80%;
@@ -184,13 +178,25 @@ img[alt=nabidka] {
   border-radius: 2%;
 }
 
+@media screen and (min-width: 850px) {
+  .masage {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+  }
+}
+
 .protoalbum {
   margin: 0 auto;
   padding: 25px;
-}
-
-.masage {
   text-align: center;
+}
+@media screen and (min-width: 850px) {
+  .protoalbum {
+    margin: 0;
+    flex: 0 1 33%;
+    margin-bottom: auto;
+  }
 }
 
 .change {

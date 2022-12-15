@@ -13,6 +13,7 @@ body {
 	margin: 0 auto;
 	min-width: 300px;
 	max-width: 1000px;
+	color: $c-secondary;
 } 
 
 ul {
@@ -67,13 +68,12 @@ header {
   	width: 100%;
   	background: #fff;
 	min-width: 300px;
-	opacity: 0.9;
-
 
 	@media screen and (min-width:850px){
 		display: flex;	
 		justify-content: space-around;
 		align-items: center;
+		opacity: 0.9;
 	}
 
 	a {
@@ -189,30 +189,40 @@ header {
 
 }
 
-
-.masage {
-	@media screen and (min-width:850px){
-		display: flex;
-		gap: 25px;
-	}
-}
-
-
 img[alt="nabidka"] {
 	width: 90%;
 	height: 80%;
 	margin: 0 auto;
 	border-radius: 2%;
 }
+
+
+.masage {
+
+	@media screen and (min-width:850px){
+		display: flex;
+		gap: 25px;
+		text-align: center;
+	}
+}
+
+
+
 .protoalbum {
 	margin: 0 auto;
 	padding: 25px;
-}
-
-
-.masage  {
 	text-align: center;
+	
+		@media screen and (min-width:850px){
+			margin: 0;
+			flex: 0 1 33%;
+			margin-bottom: auto ;
+
+		}
 }
+
+
+
 
 .change {
 display: block;
