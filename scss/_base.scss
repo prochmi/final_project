@@ -1,0 +1,58 @@
+@use 'colours';
+
+@use 'font';
+
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+	font-size: font.$f-size;
+	line-height: 1.5;
+	margin: 0 auto;
+	min-width: 300px;
+	max-width: 1000px;
+	color: colours.$c-secondary;
+	text-align: center;
+} 
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: colours.$c-primary;
+}
+
+h5 {
+	color: colours.$c-secondary;
+	margin-top: 40px;
+
+}
+
+p {
+	margin: 0;
+}
+
+.welcome {
+	text-align: center;
+	color: colours.$c-secondary;
+	padding: 0 25px 0 25px;
+
+	@media screen and (min-width:850px){
+		text-align: left;
+		padding: 0 30px;
+	}
+}
+
+.line {
+	border: 1px solid colours.$c-primary;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 40px;
+
+	@media screen and (min-width: 850px){
+		width: 100%;
+	}
+}

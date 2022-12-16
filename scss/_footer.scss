@@ -1,0 +1,23 @@
+@use 'colours';
+
+footer {
+	@media screen and (min-width:850px){
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+}
+
+.contacts {
+	text-align: center;
+	color: colours.$c-primary;
+
+	a {
+		display: block;
+	}
+	
+}
+
+.contacts :nth-child(5){
+	margin-top: 15px;
+}

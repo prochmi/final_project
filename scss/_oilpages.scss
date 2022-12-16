@@ -1,0 +1,14 @@
+@use 'colours';
+
+
+/*presentation oil*/
+
+.change {
+display: block;
+margin-top: 20px;
+	@media screen and (min-width:850px){
+		display: inline-block;
+		margin-top: 0;
+		
+	}
+}

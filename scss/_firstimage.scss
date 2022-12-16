@@ -1,0 +1,59 @@
+@use 'colours';
+
+.hero {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+    padding: 40% 40% 30% 40%;
+
+	@media screen and (min-width:850px){
+		padding: 20%;
+
+	}
+}
+.hero-foto {
+	background-image: url(/images/o_mne-min.jpg);
+}
+.hero-photo {
+	background-image: url(/images/raindrop_second-min.jpg);
+}
+.hero-photo-last {
+	background-image: url(/images/masaze-na-bolest-a-pro-relaxaci.jpg);
+
+}
+
+
+/* obrázková prezentace stránka Oleje*/
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 0;
+	padding-top: 20%;
+	@media screen and (min-width:850px){
+		padding: 0;
+
+	}
+	
+}
+/* obrázková prezentace stránka masáže*/
+.grid_massage {
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+	grid-template-rows: auto;
+	padding: 0;
+	padding-top: 20%;
+	@media screen and (min-width:850px){
+		padding-top: 0;
+
+	}
+}
+.presentation img{
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	padding-top: 20px ;
+
+}

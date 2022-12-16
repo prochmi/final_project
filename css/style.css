@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.italic {
+  font-style: italic;
+}
+
+.bolt {
+  font-weight: bold;
+}
+
+.margin {
+  margin: 0;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -32,9 +44,35 @@ h5 {
   margin-top: 40px;
 }
 
-/* menu */
-.container {
+p {
+  margin: 0;
+}
+
+.welcome {
+  text-align: center;
+  color: #b78b52;
+  padding: 0 25px 0 25px;
+}
+@media screen and (min-width: 850px) {
+  .welcome {
+    text-align: left;
+    padding: 0 30px;
+  }
+}
+
+.line {
+  border: 1px solid #92d3ca;
+  width: 95%;
   margin: 0 auto;
+  margin-top: 40px;
+}
+@media screen and (min-width: 850px) {
+  .line {
+    width: 100%;
+  }
+}
+
+.container {
   box-shadow: 0px 0px 10px 0px #aaa;
   position: fixed;
   top: 0;
@@ -87,92 +125,6 @@ h5 {
   }
 }
 
-/* main sekce */
-.hero {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 40%;
-}
-@media screen and (min-width: 850px) {
-  .hero {
-    padding: 30%;
-  }
-}
-
-.hero-foto {
-  background-image: url(/images/o_mne-min.jpg);
-}
-
-.hero-photo {
-  background-image: url(/images/raindrop_second-min.jpg);
-}
-
-/* obrázková prezentace stránka Oleje*/
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  padding: 0;
-  padding-top: 20%;
-}
-@media screen and (min-width: 850px) {
-  .grid {
-    padding: 0;
-  }
-}
-
-/* obrázková prezentace stránka masáže*/
-.grid_second {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  grid-template-rows: auto;
-  padding: 0;
-  padding-top: 20%;
-}
-@media screen and (min-width: 850px) {
-  .grid_second {
-    padding: 0;
-  }
-}
-
-.presentation img {
-  width: 100%;
-  height: 100%;
-}
-
-.title {
-  padding-top: 20px;
-}
-
-.welcome {
-  text-align: center;
-  color: #b78b52;
-  padding: 0 25px 0 25px;
-}
-@media screen and (min-width: 850px) {
-  .welcome {
-    text-align: left;
-    padding: 0 30px;
-  }
-}
-.welcome p {
-  margin-top: 25px;
-}
-
-.line {
-  border: 1px solid #92d3ca;
-  width: 95%;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-
-img[alt=nabidka] {
-  width: 90%;
-  height: 50%;
-  border-radius: 2%;
-}
-
 @media screen and (min-width: 850px) {
   .masage {
     display: flex;
@@ -201,26 +153,33 @@ img[alt=nabidka] {
   }
 }
 
-.change {
-  display: block;
-  margin-top: 20px;
+img[alt=nabidka] {
+  width: 90%;
+  height: 50%;
+  border-radius: 2%;
 }
 @media screen and (min-width: 850px) {
-  .change {
-    display: inline-block;
-    margin-top: 0;
+  img[alt=nabidka] {
+    width: 240px;
+    height: 180px;
   }
 }
 
-.italic {
-  font-style: italic;
+.space {
+  margin: 0;
+}
+@media screen and (min-width: 850px) {
+  .space {
+    text-align: left;
+  }
 }
 
-.bolt {
-  font-weight: bold;
+@media screen and (min-width: 850px) {
+  .container-massage:nth-child(3) {
+    padding-bottom: 25px;
+  }
 }
 
-/* footer */
 @media screen and (min-width: 850px) {
   footer {
     display: flex;
@@ -234,4 +193,88 @@ img[alt=nabidka] {
 }
 .contacts a {
   display: block;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.contacts :nth-child(5) {
+  margin-top: 15px;
+}
+
+.hero {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40% 40% 30% 40%;
+}
+@media screen and (min-width: 850px) {
+  .hero {
+    padding: 20%;
+  }
+}
+
+.hero-foto {
+  background-image: url(/images/o_mne-min.jpg);
+}
+
+.hero-photo {
+  background-image: url(/images/raindrop_second-min.jpg);
+}
+
+.hero-photo-last {
+  background-image: url(/images/masaze-na-bolest-a-pro-relaxaci.jpg);
+}
+
+/* obrázková prezentace stránka Oleje*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  padding-top: 20%;
+}
+@media screen and (min-width: 850px) {
+  .grid {
+    padding: 0;
+  }
+}
+
+/* obrázková prezentace stránka masáže*/
+.grid_massage {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: auto;
+  padding: 0;
+  padding-top: 20%;
+}
+@media screen and (min-width: 850px) {
+  .grid_massage {
+    padding-top: 0;
+  }
+}
+
+.presentation img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  padding-top: 20px;
+}
+
+/*presentation oil*/
+.change {
+  display: block;
+  margin-top: 20px;
+}
+@media screen and (min-width: 850px) {
+  .change {
+    display: inline-block;
+    margin-top: 0;
+  }
+}
+
+/*fonts*/
+/* menu */
+/* obrázková ukázka masáží*/
+/* footer */
+/* first images on the pages*/
+/*page oil*/
+/*page contacts *//*# sourceMappingURL=style.css.map */

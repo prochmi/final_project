@@ -1,0 +1,62 @@
+
+.masage {
+
+	@media screen and (min-width:850px){
+		display: flex;
+		gap: 25px;
+		text-align: center;
+
+	}
+}
+
+.protoalbum {
+	margin: 0 auto;
+	padding: 25px;
+	text-align: center;
+	
+	
+	
+		@media screen and (min-width:850px){
+			margin: 0;
+			flex: 0 1 33%;
+			display: flex;
+			flex-direction: column;
+		}		
+}
+.product {
+	@media screen and (min-width:850px){
+		text-align: left;
+	}
+
+}
+
+
+
+
+
+img[alt="nabidka"] {
+		width: 90%;
+		height: 50%;
+		border-radius: 2%;
+
+	@media screen and (min-width:850px){
+		width: 240px;
+		height: 180px;
+		
+	}	
+}
+
+.space {
+	margin: 0;
+	@media screen and (min-width:850px){
+		text-align: left;
+	}
+}
+
+.container-massage:nth-child(3){
+
+	@media screen and (min-width:850px){
+		padding-bottom: 25px;
+	}
+}
+	
