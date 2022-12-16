@@ -1,6 +1,7 @@
 @use 'colours';
 
 footer {
+margin-bottom: 25px;
 	@media screen and (min-width:850px){
 		display: flex;
 		justify-content: space-evenly;

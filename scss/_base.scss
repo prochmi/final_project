@@ -10,7 +10,6 @@ body {
 	line-height: 1.5;
 	margin: 0 auto;
 	min-width: 300px;
-	max-width: 1000px;
 	color: colours.$c-secondary;
 	text-align: center;
 } 
@@ -42,7 +41,8 @@ p {
 
 	@media screen and (min-width:850px){
 		text-align: left;
-		padding: 0 30px;
+		max-width: 1000px;
+		margin: 0 auto;
 	}
 }
 
