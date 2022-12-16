@@ -50,7 +50,7 @@ p {
 }
 
 h2 {
-  padding-top: 20px;
+  padding-top: 25px;
   text-align: center;
 }
 
@@ -314,9 +314,21 @@ footer {
   text-align: center;
 }
 
+.null {
+  padding-top: 25px;
+}
 @media screen and (min-width: 850px) {
   .null {
     padding: 0;
+  }
+}
+
+.nullF {
+  padding-top: 0;
+}
+@media screen and (min-width: 850px) {
+  .nullF {
+    padding: 25px;
   }
 }
 

@@ -80,9 +80,16 @@
 }
 
 .null{
+	padding-top: 25px;
 	@media screen and (min-width:850px){
 		padding: 0;
 	}	
-	
+}
+
+.nullF{
+	padding-top: 0;
+	@media screen and (min-width:850px){
+		padding: 25px;
+	}	
 	
 }
