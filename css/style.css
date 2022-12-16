@@ -207,6 +207,17 @@ footer {
 }
 .contacts a {
   display: block;
+  font-size: 18px;
+}
+.contacts p,
+.contacts a {
+  font-size: 18px;
+}
+@media screen and (min-width: 850px) {
+  .contacts p,
+.contacts a {
+    font-size: 16px;
+  }
 }
 
 .contacts :nth-child(5) {
@@ -288,6 +299,8 @@ footer {
 .presentation img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media screen and (min-width: 850px) {
   .presentation img {
@@ -309,6 +322,33 @@ footer {
   .change {
     display: inline-block;
     margin-top: 0;
+  }
+}
+
+.container-oil {
+  display: none;
+}
+@media screen and (min-width: 850px) {
+  .container-oil {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    gap: 1px;
+    padding-top: 25px;
+  }
+}
+
+.foto img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 850px) {
+  .foto:nth-child(5) {
+    grid-column: span 2;
+    grid-row: span 2;
   }
 }
 
