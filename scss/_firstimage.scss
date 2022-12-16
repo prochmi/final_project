@@ -67,7 +67,7 @@
 
 .presentation img{
 	width: 100%;
-	height: 100%;
+	height: 110%;
 	object-fit: cover;
 	@media screen and (min-width:850px){
 		margin-top: -80px;
@@ -77,4 +77,8 @@
 .title {
 	padding-top: 20px ;
 	text-align: center;
+}
+
+.null{
+	padding: 0;
 }
