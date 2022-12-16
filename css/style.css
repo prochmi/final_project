@@ -443,6 +443,10 @@ form {
 
 button {
   margin-top: 25px;
+  padding: 10px;
+  border: none;
+  background-color: #92d3ca;
+  border-radius: 12%;
 }
 
 /*fonts*/
