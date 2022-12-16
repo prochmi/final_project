@@ -23,7 +23,8 @@
 			flex-direction: column;
 		}		
 }
-.product {
+.product p,
+.product h3{
 	@media screen and (min-width:850px){
 		text-align: left;
 	}

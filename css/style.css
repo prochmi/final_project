@@ -47,6 +47,11 @@ p {
   margin: 0;
 }
 
+h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
 .welcome {
   text-align: center;
   color: #b78b52;
@@ -58,6 +63,10 @@ p {
     max-width: 1000px;
     margin: 0 auto;
   }
+}
+
+.welcome h5 {
+  text-align: center;
 }
 
 .line {
@@ -148,7 +157,8 @@ p {
 }
 
 @media screen and (min-width: 850px) {
-  .product {
+  .product p,
+.product h3 {
     text-align: left;
   }
 }
@@ -260,6 +270,7 @@ footer {
 
 .title {
   padding-top: 20px;
+  text-align: center;
 }
 
 /*presentation oil*/
@@ -290,10 +301,69 @@ footer {
   margin-top: 25px;
 }
 
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 100;
+  background-color: #f9f9f9;
+}
+@media screen and (min-width: 850px) {
+  form {
+    padding: 25px;
+  }
+}
+
+.form-field {
+  margin-top: 10px;
+  flex: 0 1 100%;
+  margin-right: 10px;
+}
+
+.container-form {
+  display: block;
+}
+@media screen and (min-width: 850px) {
+  .container-form {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
+
+.form-field label {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 99%;
+  border: 0;
+  border-bottom: 1px solid #b78b52;
+  text-align: left;
+  color: #7b7b7b;
+  font-size: 18px;
+  margin-top: 25px;
+  background-color: #f9f9f9;
+}
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: 0;
+}
+
+button {
+  margin-top: 25px;
+}
+
 /*fonts*/
 /* menu */
 /* obrázková ukázka masáží*/
 /* footer */
 /* first images on the pages*/
 /*page oil*/
-/*page contacts *//*# sourceMappingURL=style.css.map */
+/*page contacts */
+/*form*//*# sourceMappingURL=style.css.map */

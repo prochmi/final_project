@@ -1,0 +1,59 @@
+@use 'colours';
+
+form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 100;
+    background-color: colours.$c-form-back;
+
+        @media screen and (min-width:850px){
+            padding: 25px;
+        }   
+}
+
+.form-field{
+    margin-top: 10px;
+    flex: 0 1 100%;
+    margin-right: 10px;
+ 
+}
+
+.container-form {
+    display: block;
+        @media screen and (min-width:850px){
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        }
+}
+
+.form-field label {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 99%;
+    border: 0;
+    border-bottom: 1px solid colours.$c-secondary;
+    text-align: left;
+    color: colours.$c-form;
+    font-size: 18px;
+    margin-top: 25px;
+    background-color: colours.$c-form-back;
+
+    &:focus{
+        outline: 0;
+    }
+     
+}
+
+
+button {
+    margin-top: 25px;
+}
