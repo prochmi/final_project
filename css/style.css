@@ -314,8 +314,10 @@ footer {
   text-align: center;
 }
 
-.null {
-  padding: 0;
+@media screen and (min-width: 850px) {
+  .null {
+    padding: 0;
+  }
 }
 
 /*presentation oil*/
