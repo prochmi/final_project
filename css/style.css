@@ -102,6 +102,9 @@ h2 {
 .container a {
   font-size: 35%;
 }
+.container a:hover {
+  color: white;
+}
 .container img {
   display: block;
   width: 200px;
@@ -128,16 +131,13 @@ h2 {
 .container li {
   padding: 0 10px 0 0;
   font-size: 2.7rem;
+  padding: 10px;
 }
 @media screen and (min-width: 850px) {
   .container li {
     padding-left: 20px;
     font-size: 3rem;
   }
-}
-.container li:hover {
-  background-color: #b78b52;
-  color: white;
 }
 
 @media screen and (min-width: 850px) {
