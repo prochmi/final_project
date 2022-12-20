@@ -54,6 +54,10 @@
 			font-size: 3rem;
 			
 		} 
+
+		&:hover {
+			color: colours.$c-secondary;
+		}
 	
 	}
 }
