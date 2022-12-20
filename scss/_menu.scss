@@ -19,7 +19,8 @@
 		font-size: 35%;
 
 
-		&:hover {color: white;
+		&:hover {
+			color: colours.$c-secondary;
 		}
 	}
 
@@ -60,7 +61,7 @@
 			
 		} 
 
-		
+	
 	
 	}
 }
