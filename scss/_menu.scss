@@ -56,7 +56,8 @@
 		} 
 
 		&:hover {
-			color: colours.$c-secondary;
+			background-color: colours.$c-secondary;
+			color: white;
 		}
 	
 	}
