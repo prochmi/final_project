@@ -135,6 +135,10 @@ h2 {
     font-size: 3rem;
   }
 }
+.container li:hover {
+  background-color: #b78b52;
+  color: white;
+}
 
 @media screen and (min-width: 850px) {
   .masage {
